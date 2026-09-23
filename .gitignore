@@ -1,0 +1,59 @@
+# Altium automatic history and backups
+**/History/
+**/__History/
+*.~*
+*.SchDocPreview
+*.PcbDocPreview
+
+# Altium generated previews and logs
+**/__Previews/
+**/Project Logs*/
+*.LOG
+*.log
+
+# Altium temporary locks and workspace state
+*.Lck
+*.lck
+*.PrjPcbStructure
+*.PrjPcbStructure.*
+*.PrjPcbVariants
+*.DsnWrk
+*.DsnWrkStructure
+*.Annotation
+*.Annotate
+*.Status
+
+# Generated reports
+*.REP
+*.rep
+*.DRC
+*.drc
+*.EXTREP
+*.html
+*.htm
+
+# Generated manufacturing outputs
+# Keep source .OutJob files; these folders can be regenerated.
+**/Project Outputs*/
+**/Gerber/
+**/Gerbers/
+**/NC Drill/
+**/ODB++/
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS files, if the project is opened on a Mac
+.DS_Store
+._*
+
+# Editor temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~$*
